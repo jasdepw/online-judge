@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range( len(nums) - 1 ):
@@ -7,4 +5,3 @@ class Solution:
                 temp = nums[i] + nums[j]
                 if temp == target:
                     return [i, j]
-        return
